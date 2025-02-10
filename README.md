@@ -4,7 +4,7 @@ Codam project
 
 **Minitalk** is an inter-process communication project that demonstrates sending messages from a client to a server using Unix signals. The project uses bitwise operations to transmit and reconstruct characters bit-by-bit, with built-in acknowledgments and support for Unicode (UTF-8).
 
-Use the provided Makefile to compile the server and client with make. Run ./server, then ./client <PID> "string"
+Use the provided Makefile to compile the server and client with make. Run ./server, then ./client PID "string"
 
 ## Overview
 
